@@ -14,7 +14,10 @@ player.on('timeupdate', throttle((
 }, 1000));
 
 function pageReset() {
+
   const takenVideoTime = JSON.parse(localStorage.getItem(STORAGE_KEY));
+  if (takenVideoTime !== null) {
   player.setCurrentTime(takenVideoTime.seconds);
+  }
 }
 

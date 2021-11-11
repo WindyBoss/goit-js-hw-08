@@ -38,7 +38,6 @@
       ],
       ".css": "css",
       ".css.map": "css",
-      ".html": "html",
       ".fileExtension": "folder/in/dist",
       "folder/in/dist": [ ".file", ".extensions" ]
     },
